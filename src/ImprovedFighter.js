@@ -2,10 +2,9 @@
  * Created by alex on 24.05.17.
  */
 
-// import Fighter from './Fighter';
-let Fighter = require('./Fighter');
+import Fighter from './Fighter';
 
-/*export default*/ class ImprovedFighter extends Fighter {
+export default class ImprovedFighter extends Fighter {
   constructor(name, power, health) {
     super(name, power, health);
   }
@@ -14,5 +13,3 @@ let Fighter = require('./Fighter');
     super.hit(enemy, point * 2);
   }
 }
-
-module.exports = ImprovedFighter;

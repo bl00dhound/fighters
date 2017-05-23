@@ -1,11 +1,8 @@
-// import Fighter from './Fighter';
-// import ImprovedFighter from './ImprovedFighter';
-let Fighter = require('./Fighter')
-let ImprovedFighter = require('./ImprovedFighter')
+import Fighter from './Fighter';
+import ImprovedFighter from './ImprovedFighter';
 
 let fighter = new Fighter('Ordinary', 14, 8000);
 let improvedFighter = new ImprovedFighter('Improved', 14, 6000);
-
 
 let fight = (fighter, improvedFighter, ...point) => {
   let round = 0;

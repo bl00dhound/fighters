@@ -2,7 +2,7 @@
  * Created by alex on 24.05.17.
  */
 
-/*export default */class Fighter {
+export default class Fighter {
 
   constructor(name, power, health) {
     this.name = name;
@@ -21,5 +21,3 @@
   }
 
 }
-
-module.exports = Fighter;
