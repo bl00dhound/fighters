@@ -4,7 +4,7 @@
 
 export default class Fighter {
 
-  constructor(name, power, health) {
+  constructor(name = 'Default', power = 10, health = 400) {
     this.name = name;
     this.power = power;
     this.health = health;
